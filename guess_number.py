@@ -21,6 +21,6 @@ while True:
     play_game()
 
     answer = input('Хотите сыграть ещё раз? (да/нет): ').strip().lower()
-    if answer not in ('да', 'д', 'yes', 'y'):
-        print('Спасибо за игру! До встречи 👋')
+    if answer not in ('да', 'yes'):
+        print('Спасибо за игру!')
         break
